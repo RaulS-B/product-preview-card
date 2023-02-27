@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background: hsl(30, 38%, 92%);
+}
+
+.conteudo {
+  display: grid;
+  background: white;
+  grid-template-columns: 25rem 25rem;
+  border-radius: 2rem;
+}
+
+.img {
+  max-width: 100%;
+  border-bottom-left-radius: 2rem;
+  border-top-left-radius: 2rem;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  margin: 2.5rem;
+  justify-content: space-between
+}
+
+.texto {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+  color: hsl(228, 12%, 48%);
+}
+
+.valor span{
+  font-family: 'Fraunces', serif;
+  font-size: 3rem;
+  padding-right: 1.7rem;
+  color: hsl(158, 36%, 37%);
+}
+.valor{
+  display: flex;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.6rem;
+  color: hsl(228, 12%, 48%);
+}
+
+h1 {
+  font-family: 'Fraunces', serif;
+  font-size: 3rem;
+}
+
+.comprar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3.5rem;
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #fff;
+  text-decoration: none;
+  background: hsl(158, 36%, 37%);
+}
+
+.icone {
+  height: 1.1rem;
+  padding-right: 0.5rem;
+}
+
+.attribution {
+  background: hsl(30, 38%, 92%);
+}
+
+.attribution a {
+  text-decoration: none;
+  color: hsl(158, 36%, 37%);
+}
